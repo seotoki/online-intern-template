@@ -1,0 +1,10 @@
+@use './mixin' as *;
+@use './variables' as *;
+
+.u-only__pc {
+  display: block;
+}
+
+.u-only__sp {
+  display: none;
+}

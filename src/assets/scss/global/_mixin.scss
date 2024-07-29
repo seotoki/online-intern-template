@@ -1,0 +1,21 @@
+// vw
+$pc: 1366;
+$pc: 768;
+$sp: 390;
+
+@function vw($px, $width: $pc) {
+  @return calc(100vw * $px / $width);
+}
+
+// breakpoint
+$breakpoint: (
+  sp: '390',
+  tab: '601',
+  pc: '1024',
+);
+
+@mixin mq($size) {
+  @media screen and (min-width :#{map-get($breakpoint, $size)}px) {
+    @content;
+  }
+}

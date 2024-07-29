@@ -1,0 +1,14 @@
+@use '../global/mixin' as *;
+@use '../global/variables' as *;
+
+.l-main {
+  font-size: vw(16);
+
+  @include mq(pc) {
+    font-size: vw(14, $pc);
+  }
+
+  @include mq(pc) {
+    font-size: vw(12, $pc);
+  }
+}

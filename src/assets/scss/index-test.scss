@@ -1,0 +1,16 @@
+@use 'normalize.css';
+@use './global/_mixin' as *;
+@use './global/_variables' as *;
+@use './global/_common';
+@use './global/utility';
+
+// pages
+@use './pages/top/_index_test';
+
+// components
+@use './components/sample';
+
+// layouts
+@use './layouts/header';
+@use './layouts/footer';
+@use './layouts/main';
