@@ -1,5 +1,8 @@
 # clone 後は下記コマンドを実行して下さい
+cd online-intern-template
+
 npm ci
+
 npx husky install
 
 # 環境構成
