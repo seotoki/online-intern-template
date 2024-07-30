@@ -5,8 +5,6 @@ npm ci
 
 npx husky install
 
-npx husky add .husky/pre-commit "npx lint-staged"
-
 # 環境構成
 
 コンパイルなどは Vite ベースで行っています
