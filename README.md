@@ -1,9 +1,10 @@
 # clone 後は下記コマンドを実行して下さい
+
+```
 cd online-intern-template
-
 npm ci
-
 npx husky install
+```
 
 # 環境構成
 
@@ -88,11 +89,3 @@ src/data/pageData.json 　内で管理しております
   PC/SP のみ表示など便利クラスで利用する場合に接頭語（u-）を使う
 
 ※Block, Element では【スネークケース】snake*case（*で単語をつなぐ）を利用すること
-
-# husky をインストールする
-
-下記コマンドを実行する
-
-```JSON
-npx husky-init && npm install
-```
